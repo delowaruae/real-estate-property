@@ -1,0 +1,1799 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+
+<body>
+<!-- Main Head section --> 
+<section>
+    <div class="main">
+	
+        <div class="navbar">
+            <div class="icon"> <h2 class="logo">Homez24</h2> </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Properties</a></li>
+                    <li><a href="#">AI-Agent</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="#">Agencies</a></li>
+					<li><a href="#">Language</a></li>
+					<li><a href="#">Sign Up</a></li>
+					<li> <a href="#"> <ion-icon name="notifications-outline"></ion-icon> <span class="badge">3</span> </a> </li>
+					 
+                </ul>
+            </div>
+        </div> 
+      </div>
+
+</section>	
+
+
+  <!-- Search button section --> 
+<section>				
+<div class="search-tab">
+    <!-- Status Buttons -->
+    <div class="status-buttons">
+        <button class="head-line">ALL STATUS</button>
+        <button class="head-line">FOR RENT</button>
+        <button class="head-line">FOR SALE</button>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+        <select class="filters-tab">
+            <option>Property Type</option>
+            <option>Apartment</option>
+            <option>Villa</option>
+        </select>
+        <select class="filters-tab">
+            <option>All Cities</option>
+            <option>Dubai</option>
+            <option>Abu Dhabi</option>
+        </select>
+        <select class="filters-tab">
+            <option>Bedrooms</option>
+            <option>1</option>
+            <option>2</option>
+        </select>
+        <select class="filters-tab">
+            <option>Max. Price</option>
+            <option>$1000</option>
+            <option>$2000</option>
+        </select>
+        <button class="search-btn">Search</button>
+    </div>
+</div> 
+</section>
+ 
+
+
+
+
+
+ <!--Voice image search section -->  
+ <section>
+<div class="voice"> 
+ <div class="search-shell">
+    <div class="search-pill" role="search" aria-label="Search">
+      <!-- leading magnifier -->
+      <svg class="leading-icon" viewBox="0 0 24 24" fill="none" aria-hidden>
+        <path d="M21 21l-4.35-4.35" stroke="#374151" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="11" cy="11" r="6" stroke="#374151" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+
+      <input id="search" class="search-input" type="search" placeholder="Search Google or type a URL" aria-label="Search input" />
+
+      <div class="controls" aria-hidden>
+        <button class="btn-icon img-btn" id="imageBtn" title="Search by image" aria-label="Search by image">
+          <!-- image icon -->
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 19V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14" stroke="#111827" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M21 19l-5-5-6 6H5V8l4 4 6-6 6 6v7z" stroke="#111827" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </button>
+
+        <input id="fileInput" type="file" accept="image/*" style="display:none" />
+
+        <button class="mic-btn btn-icon" id="micBtn" aria-pressed="false" aria-label="Start voice search" title="Voice search">
+          <svg class="mic-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 14a3 3 0 0 0 3-3V7a3 3 0 0 0-6 0v4a3 3 0 0 0 3 3z" stroke="#111827" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M19 11v1a7 7 0 0 1-14 0v-1" stroke="#111827" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 19v3" stroke="#111827" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="hint">Tip: Click the image icon to upload a photo or click the microphone to start a voice search.</div>
+  </div>
+ </div>
+</section> 
+
+ <!--Marque sliding --> 
+ <section>
+    <div class="marquee-wrap">
+    <div class="marquee">
+      <!-- GROUP A (5 items) -->
+      <ul class="group">
+        <li><img src="images/pic1.png" alt=""><span class="tag"> SALE</span></li>
+        <li><img src="images/pic2.png" alt=""><span class="tag">RENT</span></li>
+        <li><img src="images/pic3.png" alt=""><span class="tag">RENT</span></li>
+        <li><img src="images/pic4.png" alt=""><span class="tag">SALES</span></li>
+        <li><img src="images/pic5.png" alt=""><span class="tag">RENT</span></li>
+      </ul>
+
+      <!-- GROUP B (duplicate for seamless loop) -->
+      <ul class="group" aria-hidden="true">
+        <li><img src="images/pic11.png" alt=""><span class="tag">SALE</span></li>
+        <li><img src="images/pic12.png" alt=""><span class="tag">RENT</span></li>
+        <li><img src="images/pic8.png" alt=""><span class="tag">RENT</span></li>
+        <li><img src="images/pic9.png" alt=""><span class="tag">SALES</span></li>
+        <li><img src="images/pic10.png" alt=""><span class="tag">SALES</span></li>
+      </ul>
+    </div>
+  </div>
+  
+</section>
+
+
+
+
+
+
+ <!--All City section -->  		
+<section> 
+<div class="allcity">
+    <div class="card">
+        <img src="images/dubai.png" alt="Dubai">
+
+        <div class="card-content">
+            <div class="properties">12 Properties</div>
+            <div class="city">Dubai</div>
+        </div>
+        <div class="more-details">MORE DETAILS</div>
+    </div>
+
+    <div class="card">
+        <img src="images/sharjah.png" alt="Sharjah">
+        <div class="card-content">
+            <div class="properties">4 Properties</div>
+            <div class="city">Sharjah</div>
+        </div>
+        <div class="more-details">MORE DETAILS</div>
+    </div>
+
+    <div class="card">
+        <img src="images/abudhabi.png" alt="Abu Dhabi">
+        <div class="card-content">
+            <div class="properties">7 Properties</div>
+            <div class="city">Abu Dhabi</div>
+        </div>
+        <div class="more-details">MORE DETAILS</div>
+    </div>
+	
+	   <div class="card">
+        <img src="images/ajman.png" alt="Ajman">
+        <div class="card-content">
+            <div class="properties">5 Properties</div>
+            <div class="city">Ajman</div>
+        </div>
+        <div class="more-details">MORE DETAILS</div>
+    </div>
+</section>        
+ 
+ 
+ <!-- all property Gallery-->
+ <section>
+<div class="gallery"> 
+<div class="sobproperty">    
+ <h1> Latest for sale in Dubai </h1> 
+<p> Search homes for sale in your local area by price, amenities, or other features. <br>We’ll show you the sales history and provide helpful advice. </p> 
+        <div class="property-grid">
+		
+            <div class="property-card">
+			
+                <div class="property-image">
+				<img src="images/pic1.png" width="600px" height="200px" alt="Imag1">
+                </div>
+                <div class="property-badge">FOR SALE</div>
+                <div class="property-info">
+                    <h3 class="property-title">Burj Views Residence</h3>
+                    <div class="property-price">AED 2,450,000</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Downtown Dubai, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>3 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>2 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>1,850 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+            
+            <div class="property-card">
+                <div class="property-image">
+				<img src="images/pic2.png" width="600px" height="200px" alt="Imag 2">
+
+
+                </div>
+                <div class="property-badge">FOR RENT</div>
+                <div class="property-info">
+                    <h3 class="property-title">Marina Luxury Villa</h3>
+                    <div class="property-price">AED 350,000/yr</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Dubai Marina, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>4 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>3 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>3,200 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+            
+            <div class="property-card">
+                <div class="property-image">
+				<img src="images/pic3.png" width="600px" height="200px" alt="Imag 3">
+                </div>
+                <div class="property-badge">FOR SALE</div>
+                <div class="property-info">
+                    <h3 class="property-title">Ocean View Penthouse</h3>
+                    <div class="property-price">AED 8,900,000</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Palm Jumeirah, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>5 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>4 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>4,500 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+			
+			<div class="property-card">
+                <div class="property-image">
+				<img src="images/pic4.png" width="600px" height="200px" alt="Imag 4">
+                </div>
+                <div class="property-badge">FOR SALE</div>
+                <div class="property-info">
+                    <h3 class="property-title">Burj Views Residence</h3>
+                    <div class="property-price">AED 2,450,000</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Downtown Dubai, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>3 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>2 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>1,850 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+			
+			<div class="property-card">
+                <div class="property-image">
+				<img src="images/pic5.png" width="600px" height="200px" alt="Imag 5">
+                </div>
+                <div class="property-badge">FOR SALE</div>
+                <div class="property-info">
+                    <h3 class="property-title">Burj Views Residence</h3>
+                    <div class="property-price">AED 2,450,000</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Downtown Dubai, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>3 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>2 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>1,850 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+			
+			
+			<div class="property-card">
+                <div class="property-image">
+				<img src="images/pic6.png" width="600px" height="200px" alt="Imag 6">
+                </div>
+                <div class="property-badge">FOR SALE</div>
+                <div class="property-info">
+                    <h3 class="property-title">Burj Views Residence</h3>
+                    <div class="property-price">AED 2,450,000</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Downtown Dubai, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>3 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>2 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>1,850 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+				<div class="property-card">
+                <div class="property-image">
+				<img src="images/pic7.png" width="600px" height="200px" alt="Imag 7">
+                </div>
+                <div class="property-badge">FOR SALE</div>
+                <div class="property-info">
+                    <h3 class="property-title">Burj Views Residence</h3>
+                    <div class="property-price">AED 2,450,000</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Downtown Dubai, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>3 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>2 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>1,850 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+			
+
+				<div class="property-card">
+                <div class="property-image">
+				<img src="images/pic8.png" width="600px" height="200px" alt="Imag 8">
+                </div>
+                <div class="property-badge">FOR SALE</div>
+                <div class="property-info">
+                    <h3 class="property-title">Burj Views Residence</h3>
+                    <div class="property-price">AED 2,450,000</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Downtown Dubai, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>3 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>2 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>1,850 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+			
+			
+			
+				<div class="property-card">
+                <div class="property-image">
+				<img src="images/pic9.png" width="600px" height="200px" alt="Imag 9">
+                </div>
+                <div class="property-badge">FOR SALE</div>
+                <div class="property-info">
+                    <h3 class="property-title">Burj Views Residence</h3>
+                    <div class="property-price">AED 2,450,000</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Downtown Dubai, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>3 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>2 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>1,850 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+			
+				<div class="property-card">
+                <div class="property-image">
+				<img src="images/pic10.png" width="600px" height="200px" alt="Imag 10">
+                </div>
+                <div class="property-badge">FOR SALE</div>
+                <div class="property-info">
+                    <h3 class="property-title">Burj Views Residence</h3>
+                    <div class="property-price">AED 2,450,000</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Downtown Dubai, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>3 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>2 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>1,850 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+			
+			
+				<div class="property-card">
+                <div class="property-image">
+				<img src="images/pic11.png" width="600px" height="200px" alt="Imag 11">
+                </div>
+                <div class="property-badge">FOR SALE</div>
+                <div class="property-info">
+                    <h3 class="property-title">Burj Views Residence</h3>
+                    <div class="property-price">AED 2,450,000</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Downtown Dubai, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>3 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>2 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>1,850 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+			
+			
+				<div class="property-card">
+                <div class="property-image">
+				<img src="images/pic12.png" width="600px" height="200px" alt="Imag 12">
+                </div>
+                <div class="property-badge">FOR SALE</div>
+                <div class="property-info">
+                    <h3 class="property-title">Burj Views Residence</h3>
+                    <div class="property-price">AED 2,450,000</div>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i> Downtown Dubai, Dubai
+                    </div>
+                    <div class="property-details">
+                        <div class="detail">
+                            <i class="fas fa-bed"></i>
+                            <span>3 Beds</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-bath"></i>
+                            <span>2 Baths</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>1,850 sq.ft</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-btn">View Details</a>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+</section>
+	
+	
+	
+	
+	 <!-- Explore UAE Market -->
+	<section> 
+	<div class="market-section">
+    <h2> Explore the UAE market <span style="color:orange;">☀</span></h2>
+    <p>Dive deep into the UAE’s real estate market with prices, transaction histories and community insights to help you make an educated decision.</p>
+
+    <div class="arrow left" onclick="slideLeft()">&#10094;</div>
+    <div class="arrow right" onclick="slideRight()">&#10095;</div>
+
+    <div class="market-slider" id="slider">
+        <div class="market-card">
+            <img src="images/dubai.png" alt="Dubai">
+            <h3>Dubai</h3>
+        </div>
+        <div class="market-card">
+            <img src="images/abudhabi.png" alt="Abu Dhabi">
+            <h3>Abu Dhabi</h3>
+        </div>
+        <div class="market-card">
+            <img src="images/sharjah.png" alt="Sharjah">
+            <h3>Sharjah</h3>
+        </div>
+        <div class="market-card">
+            <img src="images/ajman.png" alt="Ajman">
+            <h3>Ajman</h3>
+        </div>
+		 <div class="market-card">
+            <img src="images/alain.png" alt="Ajman">
+            <h3>AL ain</h3>
+        </div>
+		 <div class="market-card">
+            <img src="images/ras.png" alt="Ajman">
+            <h3>Ras Al Khima</h3>
+        </div>
+		 <div class="market-card">
+            <img src="images/jum.png" alt="Ajman">
+            <h3>Jumerah</h3>
+        </div>
+		 <div class="market-card">
+            <img src="images/marina.png" alt="Ajman">
+            <h3>Marina</h3>
+        </div>
+    </div>
+	
+</div>
+	</section>
+	
+	
+	
+	
+	
+ 
+
+  
+  <!-- Your Popular Real Estate Searches --> 
+<section class="popular">
+<div class="popular-real"> 
+<h2> Your Popular Real Estate Searches</h2>
+
+<div class="tabs">
+    <button class="tab-btn active" onclick="showTab('sale')">Sale</button>
+    <button class="tab-btn" onclick="showTab('rent')">Rent</button>
+</div>
+
+<div class="city-buttons">
+    <button class="city-btn active">Dubai</button>
+    <button class="city-btn">Abu Dhabi</button>
+    <button class="city-btn">Other Emirates</button>
+</div>
+
+<div id="sale" class="section">
+    <h3>All Sale</h3>
+    <div class="row">
+        <div class="column">
+            <h4>APARTMENTS</h4>
+            <a href="#">Apartments for sale in Dubai</a>
+            <a href="#">Apartments for sale in Downtown Dubai</a>
+            <a href="#">Apartments for sale in JVC</a>
+            <a href="#">Apartments for sale in Dubai Marina</a>
+            <a href="#">Apartments for sale in Business Bay</a>
+        </div>
+        <div class="column">
+            <h4>VILLAS</h4>
+            <a href="#">Villas for sale in Dubai</a>
+            <a href="#">Villas for sale in Palm Jumeirah</a>
+            <a href="#">Villas for sale in Dubai Hills Estate</a>
+            <a href="#">Villas for sale in DAMAC Hills 2</a>
+            <a href="#">Villas for sale in Al Furjan</a>
+        </div>
+        <div class="column">
+            <h4>OTHER PROPERTIES</h4>
+            <a href="#">Properties for sale in Dubai</a>
+            <a href="#">Townhouses for sale in Dubai</a>
+            <a href="#">Penthouses for sale in Dubai</a>
+            <a href="#">Hotel Apartments for sale in Dubai</a>
+            <a href="#">Residential Plots for sale in Dubai</a>
+        </div>
+    </div>
+</div>
+
+<div id="rent" class="section" style="display:none;">
+    <h3>All Rent</h3>
+    <div class="row">
+        <div class="column">
+            <h4>APARTMENTS</h4>
+            <a href="#">Apartments for rent in jumerah</a>
+            <a href="#">Apartments for rent in silicon</a>
+            <a href="#">Apartments for rent in dammac hill</a>
+            <a href="#">Apartments for rent in dip</a>
+            <a href="#">Apartments for rent in town square</a>
+        </div>
+        <div class="column">
+            <h4>VILLAS</h4>
+            <a href="#">Villas for rent in Dubai</a>
+            <a href="#">Villas for rent in Palm Jumeirah</a>
+            <a href="#">Villas for rent in Dubai Hills Estate</a>
+            <a href="#">Villas for rent in DAMAC Hills 2</a>
+            <a href="#">Villas for rent in Al Furjan</a>
+        </div>
+        <div class="column">
+            <h4>OTHER PROPERTIES</h4>
+            <a href="#">Properties for rent in Dubai</a>
+            <a href="#">Townhouses for rent in Dubai</a>
+            <a href="#">Penthouses for rent in Dubai</a>
+            <a href="#">Hotel Apartments for rent in Dubai</a>
+            <a href="#">Residential Plots for rent in Dubai</a>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+  
+  <!-- Explore more zone -->
+<section>
+
+	<div class="explore-con">
+        <h1>Explore More</h1>
+
+        <div class="nav-tabs">
+            <button class="tab-btn active" data-tab="rent">Rent</button>
+            <button class="tab-btn" data-tab="buy">Buy</button>
+            <button class="tab-btn" data-tab="invest">Invest</button>
+            <button class="tab-btn" data-tab="explore">Explore</button>
+            <button class="tab-btn" data-tab="news">News</button>
+        </div>
+
+        <div class="city-buttons">
+            <button class="city-btn active" data-city="dubai">Dubai</button>
+            <button class="city-btn" data-city="abudhabi">Abu Dhabi</button>
+            <button class="city-btn" data-city="sharjah">Sharjah</button>
+            <button class="city-btn" data-city="ajman">Ajman</button>
+            <button class="city-btn" data-city="rasalkhaimah">Ras Al Khaimah</button>
+            <button class="city-btn" data-city="alain">Al Ain</button>
+            <button class="city-btn" data-city="fujairah">Fujairah</button>
+            <button class="city-btn" data-city="ummquwain">Umm Al Quwain</button>
+        </div>
+
+        <div class="divider"> </div>
+
+        <!-- Dubai Content -->
+        <div class="city-content active" id="dubai">
+            <h2>Find Apartments in Dubai</h2>
+            <div class="apartments-grid">
+                <div class="apartment-card">
+                    <div class="apartment-info">
+                        <h3 class="apartment-title">Dubai Silicon Oasis Apartments For Rent</h3>
+                        <p class="apartment-location">Dubai Silicon Oasis</p>
+                        <p class="apartment-price">AED 45,000/year</p>
+                    </div>
+                </div>
+                <div class="apartment-card">
+                    <div class="apartment-info">
+                        <h3 class="apartment-title">Studio for Rent Monthly in Dubai</h3>
+                        <p class="apartment-location">Various Locations</p>
+                        <p class="apartment-price">AED 3,500/month</p>
+                    </div>
+                </div>
+                <div class="apartment-card">
+                    <div class="apartment-info">
+                        <h3 class="apartment-title">1 BHK for Rent in Dubai</h3>
+                        <p class="apartment-location">Various Locations</p>
+                        <p class="apartment-price">AED 55,000/year</p>
+                    </div>
+                </div>
+                <div class="apartment-card">
+                    <div class="apartment-info">
+                        <h3 class="apartment-title">3 Bedroom Apartments for Rent in Dubai</h3>
+                        <p class="apartment-location">Various Locations</p>
+                        <p class="apartment-price">AED 120,000/year</p>
+                    </div>
+                </div>
+                <div class="apartment-card">
+                    <div class="apartment-info">
+                        <h3 class="apartment-title">Apartments for Rent in Downtown Dubai</h3>
+                        <p class="apartment-location">Downtown Dubai</p>
+                        <p class="apartment-price">AED 150,000/year</p>
+                    </div>
+                </div>
+                <div class="apartment-card">
+                    <div class="apartment-info">
+                        <h3 class="apartment-title">Apartments for Rent in Jumeirah Village Circle</h3>
+                        <p class="apartment-location">Jumeirah Village Circle</p>
+                        <p class="apartment-price">AED 65,000/year</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Abu Dhabi Content -->
+        <div class="city-content" id="abudhabi">
+            <h2>Find Apartments in Abu Dhabi</h2>
+            <div class="apartments-grid">
+                <div class="apartment-card">
+                    <div class="apartment-info">
+                        <h3 class="apartment-title">Luxury Apartments in Corniche Area</h3>
+                        <p class="apartment-location">Corniche, Abu Dhabi</p>
+                        <p class="apartment-price">AED 180,000/year</p>
+                    </div>
+                </div>
+                <div class="apartment-card">
+                    <div class="apartment-info">
+                        <h3 class="apartment-title">2 BHK in Al Reem Island</h3>
+                        <p class="apartment-location">Al Reem Island</p>
+                        <p class="apartment-price">AED 95,000/year</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sharjah Content -->
+        <div class="city-content" id="sharjah">
+            <h2> Find Apartments in Sharjah </h2>
+            <div class="apartments-grid">
+                <div class="apartment-card">
+                    <div class="apartment-info">
+                        <h3 class="apartment-title">Affordable Apartments in Al Nahda</h3>
+                        <p class="apartment-location">Al Nahda, Sharjah</p>
+                        <p class="apartment-price">AED 35,000/year</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Other cities would follow the same pattern -->
+        <div class="city-content" id="ajman">
+            <h2>Find Apartments in Ajman</h2>
+            <!-- Content for Ajman -->
+        </div>
+        <div class="city-content" id="rasalkhaimah">
+            <h2>Find Apartments in Ras Al Khaimah</h2>
+            <!-- Content for Ras Al Khaimah -->
+        </div>
+        <div class="city-content" id="alain">
+            <h2>Find Apartments in Al Ain</h2>
+            <!-- Content for Al Ain -->
+        </div>
+        <div class="city-content" id="fujairah">
+            <h2>Find Apartments in Fujairah</h2>
+            <!-- Content for Fujairah -->
+        </div>
+        <div class="city-content" id="ummquwain">
+            <h2>Find Apartments in Umm Al Quwain</h2>
+            <!-- Content for Umm Al Quwain -->
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Featured Real Estate Agencies -->	
+<section>
+<div class="container-bol">
+        <div class="header">
+            <h1>Featured Real Estate Agencies</h1>
+            <p>Discover top-rated agencies with exclusive property selections</p>
+        </div>
+        
+        <div class="carousel-container">
+            <div class="counter">
+                <span id="current">1</span>/<span id="total">4</span>
+            </div>
+            
+            <div class="carousel">
+                <!-- Slide 1 -->
+                <div class="carousel-slide">
+                    <div class="agency-card">
+                        <div class="agency-image" style="background-image: url('images/ag1.png');">
+                            <div class="agency-logo">
+                                <i class="fas fa-building"></i>
+                            </div>
+                        </div>
+                        <div class="agency-content">
+                            <h2>Eilva Real Estate</h2>
+                            <div class="property-count">422 Properties for Sale</div>
+                            <hr class="divider">
+                            <div class="agency-tag">strada</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="carousel-slide">
+                    <div class="agency-card">
+                        <div class="agency-image" style="background-image: url('images/ag2.png');">
+                            <div class="agency-logo">
+                                <i class="fas fa-home"></i>
+                            </div>
+                        </div>
+                        <div class="agency-content">
+                            <h2>Urban Properties</h2>
+                            <div class="property-count">315 Properties for Sale</div>
+                            <hr class="divider">
+                            <div class="agency-tag">luxe</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="carousel-slide">
+                    <div class="agency-card">
+                        <div class="agency-image" style="background-image: url('images/ag3.png');">
+                            <div class="agency-logo">
+                                <i class="fas fa-water"></i>
+                            </div>
+                        </div>
+                        <div class="agency-content">
+                            <h2>Coastal Homes</h2>
+                            <div class="property-count">278 Properties for Sale</div>
+                            <hr class="divider">
+                            <div class="agency-tag">marina</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 4 -->
+                <div class="carousel-slide">
+                    <div class="agency-card">
+                        <div class="agency-image" style="background-image: url('images/ag4.png');">
+                            <div class="agency-logo"
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                        </div>
+                        <div class="agency-content">
+                            <h2>Mountain Realty</h2>
+                            <div class="property-count">198 Properties for Sale</div>
+                            <hr class="divider">
+                            <div class="agency-tag">alpine</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 5 -->
+                <div class="carousel-slide">
+                    <div class="agency-card">
+                        <div class="agency-image" style="background-image: url('images/ag5.png');">
+                            <div class="agency-logo">
+                                <i class="fas fa-city"></i>
+                            </div>
+                        </div>
+                        <div class="agency-content">
+                            <h2>Metro Estates</h2>
+                            <div class="property-count">356 Properties for Sale</div>
+                            <hr class="divider">
+                            <div class="agency-tag">downtown</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 6 -->
+                <div class="carousel-slide">
+                    <div class="agency-card">
+                        <div class="agency-image" style="background-image: url('images/ag6.png');">
+                            <div class="agency-logo">
+                                <i class="fas fa-tree"></i>
+                            </div>
+                        </div>
+                        <div class="agency-content">
+                            <h2>Green Valley</h2>
+                            <div class="property-count">245 Properties for Sale</div>
+                            <hr class="divider">
+                            <div class="agency-tag">woodland</div>
+                        </div>
+                    </div>
+                </div>
+				
+				    <!-- Slide 7 -->
+                <div class="carousel-slide">
+                    <div class="agency-card">
+                        <div class="agency-image" style="background-image: linear-gradient(rgba(0,0,0,0.2), url('images/ag7.png');">
+                            <div class="agency-logo">
+                                <i class="fas fa-city"></i>
+                            </div>
+                        </div>
+                        <div class="agency-content">
+                            <h2>Metro Estates</h2>
+                            <div class="property-count">356 Properties for Sale</div>
+                            <hr class="divider">
+                            <div class="agency-tag">downtown</div>
+                        </div>
+                    </div>
+                </div>
+				
+				      <!-- Slide 8 -->
+                <div class="carousel-slide">
+                    <div class="agency-card">
+                        <div class="agency-image" style="background-image: url('images/ag8.png');">
+                            <div class="agency-logo">
+                                <i class="fas fa-home"></i>
+                            </div>
+                        </div>
+                        <div class="agency-content">
+                            <h2>Urban Properties</h2>
+                            <div class="property-count">315 Properties for Sale</div>
+                            <hr class="divider">
+                            <div class="agency-tag">luxe</div>
+                        </div>
+                    </div>
+                </div>
+				
+				      <!-- Slide 9 -->
+                <div class="carousel-slide">
+                    <div class="agency-card">
+                        <div class="agency-image" style="background-image: url('images/ag9.png');">
+                            <div class="agency-logo">
+                                <i class="fas fa-home"></i>
+                            </div>
+                        </div>
+                        <div class="agency-content">
+                            <h2>Urban Properties</h2>
+                            <div class="property-count">315 Properties for Sale</div>
+                            <hr class="divider">
+                            <div class="agency-tag">luxe</div>
+                        </div>
+                    </div>
+                </div>
+				
+
+            </div>
+            
+            <button class="carousel-arrow arrow-left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-arrow arrow-right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <div class="carousel-nav">
+            <div class="nav-dot active" data-index="0"></div>
+            <div class="nav-dot" data-index="1"></div>
+            <div class="nav-dot" data-index="2"></div>
+            <div class="nav-dot" data-index="3"></div>
+        </div>
+    </div>
+</section>	
+
+
+
+
+
+
+
+    
+   <!-- Premium Real Estate Agents --> 
+ <section class="prem-agent">
+   <div class="headline">
+        <h3>Premium Real Estate Agents</h3>
+        <p>Meet our team of award-winning agents dedicated to finding your dream property</p>
+    </div>
+    
+    <div class="carousel-container">
+        <!-- Navigation buttons -->
+        <div class="nav-btn prev">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="nav-btn next">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        
+        <div class="agents-carousel">
+            <!-- Slide 1 - 4 Agents -->
+            <div class="agents-slide">
+                <div class="agent-card">
+                    <div class="agent-photo">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Ahmad Patel">
+                    </div>
+                    <h2 class="agent-name">Ahmad Patel</h2>
+                    <div class="agent-title">SENIOR AGENT</div>
+                    <div class="agent-details">
+                        <p><i class="fas fa-home"></i> Properties: <strong>24</strong></p>
+                        <p><i class="fas fa-globe"></i> Language: <strong>English, Spanish</strong></p>
+                        <p><i class="fas fa-star"></i> Experience: <strong>8 years</strong></p>
+                    </div>
+                    <a href="#" class="view-profile">View Profile</a>
+                </div>
+                
+                <div class="agent-card">
+                    <div class="agent-photo">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80" alt="Aisha Gupta">
+                    </div>
+                    <h2 class="agent-name">Aisha Gupta</h2>
+                    <div class="agent-title">LUXURY SPECIALIST</div>
+                    <div class="agent-details">
+                        <p><i class="fas fa-home"></i> Properties: <strong>32</strong></p>
+                        <p><i class="fas fa-globe"></i> Language: <strong>English, French</strong></p>
+                        <p><i class="fas fa-star"></i> Experience: <strong>6 years</strong></p>
+                    </div>
+                    <a href="#" class="view-profile">View Profile</a>
+                </div>
+                
+                <div class="agent-card">
+                    <div class="agent-photo">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80" alt="Fatima Ali">
+                    </div>
+                    <h2 class="agent-name">Fatima Ali</h2>
+                    <div class="agent-title">COMMERCIAL EXPERT</div>
+                    <div class="agent-details">
+                        <p><i class="fas fa-home"></i> Properties: <strong>19</strong></p>
+                        <p><i class="fas fa-globe"></i> Language: <strong>English, Arabic</strong></p>
+                        <p><i class="fas fa-star"></i> Experience: <strong>7 years</strong></p>
+                    </div>
+                    <a href="#" class="view-profile">View Profile</a>
+                </div>
+                
+                <div class="agent-card">
+                    <div class="agent-photo">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Yusuf Khan">
+                    </div>
+                    <h2 class="agent-name">Yusuf Khan</h2>
+                    <div class="agent-title">INTERNATIONAL AGENT</div>
+                    <div class="agent-details">
+                        <p><i class="fas fa-home"></i> Properties: <strong>27</strong></p>
+                        <p><i class="fas fa-globe"></i> Language: <strong>English, Spanish</strong></p>
+                        <p><i class="fas fa-star"></i> Experience: <strong>10 years</strong></p>
+                    </div>
+                    <a href="#" class="view-profile">View Profile</a>
+                </div>
+            </div>
+            
+            <!-- Slide 2 - 4 Agents -->
+            <div class="agents-slide">
+                <div class="agent-card">
+                    <div class="agent-photo">
+                        <img src="https://images.unsplash.com/photo-1611689103472-70a7bc0c0a6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Sophia Chen">
+                    </div>
+                    <h2 class="agent-name">Sophia Chen</h2>
+                    <div class="agent-title">INVESTMENT ADVISOR</div>
+                    <div class="agent-details">
+                        <p><i class="fas fa-home"></i> Properties: <strong>36</strong></p>
+                        <p><i class="fas fa-globe"></i> Language: <strong>English, Mandarin</strong></p>
+                        <p><i class="fas fa-star"></i> Experience: <strong>9 years</strong></p>
+                    </div>
+                    <a href="#" class="view-profile">View Profile</a>
+                </div>
+                
+                <div class="agent-card">
+                    <div class="agent-photo">
+                        <img src="https://images.unsplash.com/photo-1556157382-97eda2f9e946?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="David Wilson">
+                    </div>
+                    <h2 class="agent-name">David Wilson</h2>
+                    <div class="agent-title">PROPERTY DIRECTOR</div>
+                    <div class="agent-details">
+                        <p><i class="fas fa-home"></i> Properties: <strong>42</strong></p>
+                        <p><i class="fas fa-globe"></i> Language: <strong>English, German</strong></p>
+                        <p><i class="fas fa-star"></i> Experience: <strong>12 years</strong></p>
+                    </div>
+                    <a href="#" class="view-profile">View Profile</a>
+                </div>
+                
+                <div class="agent-card">
+                    <div class="agent-photo">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80" alt="Emma Johnson">
+                    </div>
+                    <h2 class="agent-name">Emma Johnson</h2>
+                    <div class="agent-title">LUXURY CONSULTANT</div>
+                    <div class="agent-details">
+                        <p><i class="fas fa-home"></i> Properties: <strong>28</strong></p>
+                        <p><i class="fas fa-globe"></i> Language: <strong>English, French</strong></p>
+                        <p><i class="fas fa-star"></i> Experience: <strong>7 years</strong></p>
+                    </div>
+                    <a href="#" class="view-profile">View Profile</a>
+                </div>
+                
+                <div class="agent-card">
+                    <div class="agent-photo">
+                        <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80" alt="Michael Brown">
+                    </div>
+                    <h2 class="agent-name">Michael Brown</h2>
+                    <div class="agent-title">REGIONAL MANAGER</div>
+                    <div class="agent-details">
+                        <p><i class="fas fa-home"></i> Properties: <strong>51</strong></p>
+                        <p><i class="fas fa-globe"></i> Language: <strong>English, Spanish</strong></p>
+                        <p><i class="fas fa-star"></i> Experience: <strong>15 years</strong></p>
+                    </div>
+                    <a href="#" class="view-profile">View Profile</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="pagination">
+            <div class="pagination-dot active" data-slide="0"></div>
+            <div class="pagination-dot" data-slide="1"></div>
+        </div>
+        
+        <div class="auto-toggle active">
+            <div class="toggle-switch"></div>
+            <span>Auto Slide</span>
+        </div>
+    </div>
+</section>
+
+
+ <!-- testmonial Customer-->
+<section>
+    <h4>Testimonials</h4>
+    <h2>What our customers saying</h2>
+    <p class="subtitle">
+        Buy or sell your home with our agents. Our agents are knowledgeable, professional, and dedicated to everyone’s satisfaction!
+    </p>
+
+    <div class="slider-container">
+        <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+        <div class="slider" id="slider">
+            <div class="slide">
+                <div class="card">
+                    <p>The professionalism and expertise of the team were outstanding. Every interaction was handled with utmost care and attention to detail. Truly a remarkable experience.</p>
+                    <div class="customer">
+                        <img src="images/pro1.png" alt="Solaiman Bin Saleh">
+                        <div>
+                            <h5> Solaiman Bin Saleh</h5>
+                            <span>Customer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="card">
+                    <p>I was thoroughly impressed by the prompt and courteous service. The team went above and beyond to ensure my needs were met with efficiency and care.</p>
+                    <div class="customer">
+                        <img src="images/pro3.png" alt="Mohammed Bin Zabir">
+                        <div>
+                            <h5> Mohammed Bin Zabir</h5>
+                            <span>Customer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="card">
+                    <p>Exceptional customer service! The staff was not only knowledgeable but also incredibly supportive and patient. I felt valued and well taken care of throughout my experience.</p>
+                    <div class="customer">
+                        <img src="images/pro2.png" alt="Hena Koraishy">
+                        <div>
+                            <h5>Hena Koraishy</h5>
+                            <span>Customer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+    </div>
+</section>
+
+ <!-- Users quantaty section -->
+
+<section> 
+<h2>Explore millions of offerings tailored to your business needs</h2>
+
+  <div class="counter-container">
+    <div class="counter-box">
+      <div class="counter" data-target="35000">0</div>
+      <div class="label">Users</div>
+    </div>
+    <div class="counter-box">
+      <div class="counter" data-target="3200">0</div>
+      <div class="label">Downloads</div>
+    </div>
+    <div class="counter-box">
+      <div class="counter" data-target="780">0</div>
+      <div class="label">Projects</div>
+    </div>
+    <div class="counter-box">
+      <div class="counter" data-target="95">0</div>
+      <div class="label">Countries</div>
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- footer section -->
+<footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="section-title">Discover</h3>
+                <div class="city-slider">
+                    <div class="city-slides">
+                        <div class="city-slide">
+                            <a href="#" class="city-link">Abu Dhabi</a>
+                            <a href="#" class="city-link">Ajman</a>
+                            <a href="#" class="city-link">Dubai</a>
+                            <a href="#" class="city-link">Sharjah</a>
+                        </div>
+                        <div class="city-slide">
+                            <a href="#" class="city-link">Ras Al Khaimah</a>
+                            <a href="#" class="city-link">Al Ain</a>
+                            <a href="#" class="city-link">Fujairah</a>
+                            <a href="#" class="city-link">Umm Al Quwain</a>
+                        </div>
+                    </div>
+                    <div class="slider-arrows">
+                        <div class="slider-arrow prev-arrow">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                        <div class="slider-arrow next-arrow">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="slider-nav">
+                        <div class="slider-dot active" data-index="0"></div>
+                        <div class="slider-dot" data-index="1"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="section-title">Contact Us</h3>
+                <p class="contact-info">
+                    Dubai, United Arab Emirates<br>
+                    hello@homez24.com
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="section-title">Policies</h3>
+                <div class="policy-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms and Conditions</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="section-title">Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" class="email-input" placeholder="Enter your email" required>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+                <p class="footer-description">  Homez24 is a premium Real Estate Platform. </p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            HOMEZ 24
+        </div>
+    </footer>
+	
+	
+      <div class="bottom">
+            <p> © 2025 Homez24 Property . All rights reserved. </p>
+       </div>
+
+
+
+ <!-- home section for media icon facbook tiktok -->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+	
+ <!-- Voice image search script -->	
+<script>
+    const micBtn = document.getElementById('micBtn');
+    const fileInput = document.getElementById('fileInput');
+    const imageBtn = document.getElementById('imageBtn');
+    const searchInput = document.getElementById('search');
+
+    // image button opens file picker
+    imageBtn.addEventListener('click', () => fileInput.click());
+
+    fileInput.addEventListener('change', (e) => {
+      const file = e.target.files && e.target.files[0];
+      if (!file) return;
+      // show a quick filename in the input (UI-only)
+      searchInput.value = `Image: ${file.name}`;
+    });
+
+    // mimic voice listening state (UI only)
+    let listening = false;
+    micBtn.addEventListener('click', () => {
+      listening = !listening;
+      micBtn.setAttribute('aria-pressed', String(listening));
+      if (listening) startListeningUI(); else stopListeningUI();
+    });
+
+    function startListeningUI(){
+      micBtn.classList.add('listening');
+      micBtn.title = 'Listening... Click to stop';
+      // tiny visual feedback and placeholder text
+      searchInput.placeholder = 'Listening... say something';
+      // (In a real app you'd start Web Speech API here)
+      // For demo, auto-fill after 3s
+      micBtn._timer = setTimeout(()=>{
+        searchInput.value = 'Example voice query: "best running shoes"';
+        listening = false;
+        stopListeningUI();
+      }, 3000);
+    }
+    function stopListeningUI(){
+      micBtn.classList.remove('listening');
+      micBtn.title = 'Voice search';
+      searchInput.placeholder = 'Search Google or type a URL';
+      clearTimeout(micBtn._timer);
+    }
+
+    // accessibility: allow Enter on the search to simulate search
+    searchInput.addEventListener('keydown', (e)=>{
+      if (e.key === 'Enter'){
+        e.preventDefault();
+        alert('Search for: ' + searchInput.value);
+      }
+    });
+  </script>	
+	
+	
+	
+	
+	 <!-- agency -->
+	<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const carousel = document.querySelector('.carousel');
+            const slides = document.querySelectorAll('.carousel-slide');
+            const dots = document.querySelectorAll('.nav-dot');
+            const prevBtn = document.querySelector('.arrow-left');
+            const nextBtn = document.querySelector('.arrow-right');
+            const currentCounter = document.getElementById('current');
+            const totalCounter = document.getElementById('total');
+            
+            // Calculate how many sets of 3 slides we have
+            const slideSets = Math.ceil(slides.length / 3);
+            totalCounter.textContent = slideSets;
+            
+            let currentIndex = 0;
+            const slideWidth = slides[0].offsetWidth * 3; // Width of 3 slides
+            
+            // Function to update carousel position
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+                
+                // Update active dot
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+                
+                // Update counter
+                currentCounter.textContent = currentIndex + 1;
+            }
+            
+            // Auto slide functionality (every 5 seconds)
+            function startAutoSlide() {
+                return setInterval(() => {
+                    currentIndex = (currentIndex + 1) % slideSets;
+                    updateCarousel();
+                }, 5000);
+            }
+            
+            let autoSlideInterval = startAutoSlide();
+            
+            // Pause auto slide on hover
+            const carouselContainer = document.querySelector('.carousel-container');
+            carouselContainer.addEventListener('mouseenter', () => {
+                clearInterval(autoSlideInterval);
+            });
+            
+            carouselContainer.addEventListener('mouseleave', () => {
+                autoSlideInterval = startAutoSlide();
+            });
+            
+            // Navigation dots
+            dots.forEach(dot => {
+                dot.addEventListener('click', () => {
+                    currentIndex = parseInt(dot.getAttribute('data-index'));
+                    updateCarousel();
+                });
+            });
+            
+            // Arrow navigation
+            prevBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + slideSets) % slideSets;
+                updateCarousel();
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % slideSets;
+                updateCarousel();
+            });
+            
+            // Initialize carousel
+            updateCarousel();
+            
+            // Touch support for mobile
+            let touchStartX = 0;
+            let touchEndX = 0;
+            
+            carouselContainer.addEventListener('touchstart', e => {
+                touchStartX = e.changedTouches[0].screenX;
+            });
+            
+            carouselContainer.addEventListener('touchend', e => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            });
+            
+            function handleSwipe() {
+                const diff = touchStartX - touchEndX;
+                // Minimum swipe distance
+                if (Math.abs(diff) > 50) {
+                    if (diff > 0) {
+                        // Swipe left - next slide
+                        currentIndex = (currentIndex + 1) % slideSets;
+                    } else {
+                        // Swipe right - previous slide
+                        currentIndex = (currentIndex - 1 + slideSets) % slideSets;
+                    }
+                    updateCarousel();
+                }
+            }
+            
+            // Adjust on window resize
+            window.addEventListener('resize', () => {
+                slideWidth = slides[0].offsetWidth * 3;
+                updateCarousel();
+            });
+        });
+    </script>
+	
+	
+	 <!---- Explore market ---->
+	<script>
+    let slider = document.getElementById('slider');
+    let scrollAmount = 320;
+
+    function slideLeft() {
+        slider.scrollBy({
+            left: -scrollAmount,
+            behavior: 'smooth'
+        });
+    }
+    function slideRight() {
+        slider.scrollBy({
+            left: scrollAmount,
+            behavior: 'smooth'
+        });
+    }
+
+    // Auto-slide every 3 seconds
+    setInterval(() => {
+        if (slider.scrollLeft + slider.clientWidth >= slider.scrollWidth) {
+            slider.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+            slideRight();
+        }
+    }, 3000);
+</script>
+
+ <!-- Popular real Estate Zone -->
+<script>
+function showTab(tab) {
+    document.getElementById('sale').style.display = tab === 'sale' ? 'block' : 'none';
+    document.getElementById('rent').style.display = tab === 'rent' ? 'block' : 'none';
+    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+}
+</script>
+
+
+
+
+
+
+	 <!-- Sup Agent -->
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const agentsContainer = document.querySelector('.agents-container');
+            const prevBtn = document.querySelector('.prev');
+            const nextBtn = document.querySelector('.next');
+            const paginationDots = document.querySelectorAll('.pagination-dot');
+            const autoToggle = document.querySelector('.auto-toggle');
+            
+            let currentPage = 0;
+            const totalPages = 2;
+            let autoSlideInterval;
+            
+            // Initialize auto slide
+            startAutoSlide();
+            
+            // Go to specific page
+            function goToPage(page) {
+                currentPage = page;
+                agentsContainer.style.transform = `translateX(-${currentPage * 33.333}%)`;
+                
+                // Update pagination dots
+                paginationDots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentPage);
+                });
+            }
+            
+            // Start auto sliding
+            function startAutoSlide() {
+                autoSlideInterval = setInterval(() => {
+                    currentPage = (currentPage + 1) % totalPages;
+                    goToPage(currentPage);
+                }, 5000);
+            }
+            
+            // Stop auto sliding
+            function stopAutoSlide() {
+                clearInterval(autoSlideInterval);
+            }
+            
+            // Event listeners for navigation buttons
+            prevBtn.addEventListener('click', () => {
+                currentPage = (currentPage - 1 + totalPages) % totalPages;
+                goToPage(currentPage);
+                resetAutoSlide();
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                currentPage = (currentPage + 1) % totalPages;
+                goToPage(currentPage);
+                resetAutoSlide();
+            });
+            
+            // Event listeners for pagination dots
+            paginationDots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    goToPage(index);
+                    resetAutoSlide();
+                });
+            });
+            
+            // Auto toggle switch
+            autoToggle.addEventListener('click', () => {
+                autoToggle.classList.toggle('active');
+                
+                if (autoToggle.classList.contains('active')) {
+                    startAutoSlide();
+                } else {
+                    stopAutoSlide();
+                }
+            });
+            
+            // Reset auto slide timer
+            function resetAutoSlide() {
+                if (autoToggle.classList.contains('active')) {
+                    stopAutoSlide();
+                    startAutoSlide();
+                }
+            }
+            
+            // Pause auto slide on hover
+            agentsContainer.addEventListener('mouseenter', () => {
+                if (autoToggle.classList.contains('active')) {
+                    stopAutoSlide();
+                }
+            });
+            
+            // Resume auto slide when mouse leaves
+            agentsContainer.addEventListener('mouseleave', () => {
+                if (autoToggle.classList.contains('active')) {
+                    startAutoSlide();
+                }
+            });
+        });
+    </script>
+
+
+
+<script>
+let index = 0;
+function showSlide() {
+    const slider = document.getElementById('slider');
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+    const slideWidth = slides[0].clientWidth;
+    slider.style.transform = `translateX(${-index * slideWidth}px)`;
+}
+function nextSlide() {
+    const slides = document.querySelectorAll('.slide');
+    index = (index + 1) % slides.length;
+    showSlide();
+}
+function prevSlide() {
+    const slides = document.querySelectorAll('.slide');
+    index = (index - 1 + slides.length) % slides.length;
+    showSlide();
+}
+setInterval(nextSlide, 3500); // Auto slide every 3.5s
+window.addEventListener('resize', showSlide);
+</script>
+
+
+
+
+
+ <!---- /* User Quntaty Section */ ---->
+<script>
+    const counters = document.querySelectorAll('.counter');
+
+    counters.forEach(counter => {
+      counter.innerText = '0';
+
+      const updateCounter = () => {
+        const target = +counter.getAttribute('data-target');
+        const current = +counter.innerText;
+
+        const increment = target / 200; // speed
+
+        if (current < target) {
+          counter.innerText = `${Math.ceil(current + increment)}`;
+          setTimeout(updateCounter, 10);
+        } else {
+          counter.innerText = target;
+        }
+      };
+
+      updateCounter();
+    });
+  </script>
+
+
+
+
+
+
+
+	 <!---- /* footer script */ ---->
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // City slider functionality
+            const citySlides = document.querySelector('.city-slides');
+            const citySlideItems = document.querySelectorAll('.city-slide');
+            const dots = document.querySelectorAll('.slider-dot');
+            const prevArrow = document.querySelector('.prev-arrow');
+            const nextArrow = document.querySelector('.next-arrow');
+            
+            let currentSlide = 0;
+            const slideCount = citySlideItems.length;
+            let autoSlideInterval;
+            
+            function updateSlider() {
+                citySlides.style.transform = `translateX(-${currentSlide * 100}%)`;
+                
+                // Update dots
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentSlide);
+                });
+            }
+            
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % slideCount;
+                updateSlider();
+            }
+            
+            function prevSlide() {
+                currentSlide = (currentSlide - 1 + slideCount) % slideCount;
+                updateSlider();
+            }
+            
+            function startAutoSlide() {
+                autoSlideInterval = setInterval(nextSlide, 5000);
+            }
+            
+            function stopAutoSlide() {
+                clearInterval(autoSlideInterval);
+            }
+            
+            // Event listeners
+            nextArrow.addEventListener('click', () => {
+                nextSlide();
+                stopAutoSlide();
+                startAutoSlide();
+            });
+            
+            prevArrow.addEventListener('click', () => {
+                prevSlide();
+                stopAutoSlide();
+                startAutoSlide();
+            });
+            
+            dots.forEach(dot => {
+                dot.addEventListener('click', () => {
+                    currentSlide = parseInt(dot.getAttribute('data-index'));
+                    updateSlider();
+                    stopAutoSlide();
+                    startAutoSlide();
+                });
+            });
+            
+            // Pause auto slide on hover
+            document.querySelector('.city-slider').addEventListener('mouseenter', stopAutoSlide);
+            document.querySelector('.city-slider').addEventListener('mouseleave', startAutoSlide);
+            
+            // Start auto slide
+            startAutoSlide();
+            
+            // Newsletter form submission
+            const newsletterForm = document.querySelector('.newsletter-form');
+            newsletterForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const emailInput = this.querySelector('.email-input');
+                alert(`Thank you for subscribing with ${emailInput.value}!`);
+                emailInput.value = '';
+            });
+        });
+    </script>
+	
+	
+	
+</body>
+</html>
